@@ -5,9 +5,9 @@ Overview <br>
 the kernel for the Orangepi4pro debian bookworm is missing quite some features (http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-Pi-4-Pro.html)
 
 This new kernel includes modules for:
- - TUN
- - POSIX MQUEUE
- - OVERLAY FS
+ - TUN (if you want to use tailscale)
+ - POSIX MQUEUE (if you want to use CIFS)
+ - OVERLAY FS (if you want to use docker)
  - UTF 8
 
 linux-image-current-sun60iw2_1.0.4_arm64.deb — Kernel image & essential modules
